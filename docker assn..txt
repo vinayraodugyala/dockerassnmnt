@@ -1,0 +1,54 @@
+1.pulled and image nginx fron docker hub
+2.docker images
+EPOSITORY                            TAG                 IMAGE ID            CREATED             SIZE
+<none>                                <none>              1438be25512f        9 days ago          232MB
+devops/first                          latest              9fecd00d6162        11 days ago         253MB
+pom.xml                               latest              9fecd00d6162        11 days ago         253MB
+multistage/java                       latest              9fecd00d6162        11 days ago         253MB
+nginx               
+1                  latest              4bb46517cac3        2 weeks ago         133MB
+registry.access.redhat.com/ubi8/ubi   8.1                 8121a9f5303b        5 months ago        232MB
+hello-world                           latest              bf756fb1ae65        8 months ago        13.3kB
+3.image id nginx :4bb46517cac3
+4.docker run nginx
+5.to list containers :docker ps
+6.to list all containers with stopped :docker ps -a
+7.container id :874e812a714f
+8.
+9.pulled image:tomcat 81cd9536b1e6          
+10.  cotainer id:c0faf174b051  
+11.ip :192.168.99.100 
+12. port : 0.0.0.0:8080->8080/tcp
+13. yes accessed the home page
+14.647MB
+15.these are used to run an applications or to run an images
+16.8080
+17.yes done 
+18.pulled 2 images
+ ubuntu                                16.04               4b22027ede29        13 days ago         127MB
+ubuntu                                20.04               4e2eef94cd6b        13 days ago         73.9MB
+19.did attached mode:docker run -it ubuntu:16.04 bash
+20. docker run -d -it ubuntu:20.04
+21.one container is running 5d311542c96e  
+22.yes tomcat container is running
+23.docker log containerid
+24.docker run -it ubuntu:16.04 
+25.    root@80163811487a 
+26 . touch vinay   
+27.apt-get update
+apt-get install apache2
+28.    exit
+29.no 
+30.docker run --name myubuntu:20.04
+31. docker run -it ubuntu:20.04 bash  
+32.     docker kill  c89b4d44a73c 
+33.yes    
+34.
+36.no i dont have running tomcat container i have it in exited state         
+38.docker ps -a :to list all the images and containers
+   docker ps -f:to filter output 
+   docker ps -q:only display the numeric id's
+39. docker ps -all :to list all the  images and containers
+     
+     
+                                                     
